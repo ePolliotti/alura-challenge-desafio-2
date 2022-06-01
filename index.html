@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>juego Ahorcado</title>
+    <title>Document</title>
 </head>
+
+
 <body>
 
-    <main>
+    <div class="hombre-ahorcado" >
+        <img id="hombre" alt="hombre ahorcado">
+    </div>
+   
+    <div class="adivinando"> <samp class="letra-adivina">A</samp>
+        <samp  class="letra-adivina">L</samp>
+        <samp  class="letra-adivina"></samp>
+        <samp  class="letra-adivina"></samp>
+        <samp  class="letra-adivina">A</samp>
+    </div>
 
-        
-    </main>
-    
+  
+   
+   <div class="errado">
+        <samp class="letra-errada">B</samp>
+        <samp class="letra-errada">L</samp>
+        <samp class="letra-errada"></samp>
+        <samp class="letra-errada"></samp>
+        <samp class="letra-errada">A</samp>
+   </div>
+   
+   <form class="botones" action="javascript:void(0)">
+        <input type="button" class="btn-azul"  value="Nuevo juego">
+        <input type="button" value="Desistir">
+    </form>
+    <script src="scripts.js"></script>
 </body>
 </html>
