@@ -3,7 +3,7 @@
     var juego = {
 
         palabra: "ALURA",
-        estado: 10,
+        estado: 6,
         adivinado: ['A','U','L'],
         errado: ['B','J','K','C']
 
