@@ -3,7 +3,7 @@
     var juego = {
 
         palabra: "ALURA",
-        estado: 1,
+        estado: 10,
         adivinado: ['A','U','L'],
         errado: ['B','J','K','C']
 
@@ -19,8 +19,7 @@
         // Actualizar la imagen de el hombre
         var $elem
         $elem = $html.hombre
-        $elem.src = './img/' + juego.estado + '.png'
-
+        $elem.src = 'img/estados/' + juego.estado + '.png'
         //creamos las letras adivinadas
         var palabra = juego.palabra
         var adivinado = juego.adivinado
